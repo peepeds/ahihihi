@@ -78,11 +78,17 @@ int main(){
 
     total = pkp ;
     // pajak di indonesia merupakan pajak progresif 
-    // apabila pendapatan kena pajak <= 60 terkena 5%
+    // apabila pendapatan kena pajak <= 60 terkena 5% 
     // apabila pendapatan kena pajak <= 250 terkena 15%
     // apabila pendapatan kena pajak <= 500 terkena 25%
     // apabila pendapatan kena pajak <= 5000terkena 30%
     // apabila pendapatan kena pajak <= 5000terkena 35%
+    /*
+    contoh kasus  = pkp tono adalah 310 juta rupiah , bentuk penyelesaiannya adalah 
+                    60 juta pertama terkena 5 % pajak = maka terkena 3 juta 
+                    250 juta kedua terkena 15 % pajak = maka terkena 37.5 juta 
+                    total = 3 + 37.5 , maka terkena 40.5 juta rupiah 
+    */
     
     if(pkp <=0){
         puts("Kamu terbebas dari pajak");
@@ -134,5 +140,4 @@ int main(){
     }
     printf("kamu perlu membayar pajak sebesar : %lf juta rupiah\n",akhir);
 
-    
 }
