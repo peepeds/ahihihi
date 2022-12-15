@@ -124,10 +124,12 @@ int main(){
     if( akhir < 1){
         akhir *= 1000;
         printf("kamu perlu membayar pajak sebesar : %lf  ribu rupiah\n",akhir);
+        return 0 ;
        
     } else if (akhir > 1000){
         akhir /= 1000;
         printf("kamu perlu membayar pajak sebesar : %lf miliar rupiah\n",akhir);
+        return 0 ;
        
     }
     printf("kamu perlu membayar pajak sebesar : %lf juta rupiah\n",akhir);
