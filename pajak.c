@@ -63,9 +63,12 @@ int main(){
         ptkp = 54 ;
         pkp = pendapatan - ptkp ;
     } else {
-        ptkp = 54 +4.5 ;
+        ptkp = 54 + 4.5 ;
         if(anak > 3){
             anak = 3 ; 
+            ptkp += anak * 4.5 ;
+        } else if (anak <= 3 ){
+            anak = anak ;
             ptkp += anak * 4.5 ;
         }
         if(pajakGabung == 1){
