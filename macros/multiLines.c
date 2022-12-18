@@ -14,7 +14,6 @@ int main(){
     double luas ;
    
     printf("Tugas ini dikerjakan secara berkelompok, nama kelompok kami adalah bebas ,bebas terdiri atas %d orang\n",kelompok);
-    printf("Anggota kelompok kami adalah : \n");
    
     printf("kami akan mengerjakan tugas berupa menghitung luas lingkaran\n");
     printf("Masukkan jari - jari lingkaran : ");
