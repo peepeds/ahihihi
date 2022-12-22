@@ -1,0 +1,1 @@
+baru ide awal
