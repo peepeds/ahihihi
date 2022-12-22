@@ -1,0 +1,3 @@
+1  udon. 25000
+2  yakisoba. 25000
+3  onigiri. 20000
